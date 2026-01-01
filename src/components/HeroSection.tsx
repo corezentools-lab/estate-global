@@ -23,7 +23,7 @@ export function HeroSection() {
           alt="Dawoodi Farms coffee estate at golden hour"
           className="w-full h-[120%] object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/10 to-background/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-background/90" />
       </div>
 
       {/* Content */}
@@ -34,16 +34,16 @@ export function HeroSection() {
         </div>
 
         {/* Main Headline */}
-        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight mb-6 animate-fade-up delay-100">
-          <span className="text-foreground">Single-Origin.</span>
+        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight mb-6 animate-fade-up delay-100 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
+          <span className="text-white">Single-Origin.</span>
           <br />
-          <span className="text-foreground">Patiently Built.</span>
+          <span className="text-white">Patiently Built.</span>
           <br />
-          <span className="text-gradient-gold">Globally Offered.</span>
+          <span className="text-gold drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">Globally Offered.</span>
         </h1>
 
         {/* Sub-headline */}
-        <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed mb-10 animate-fade-up delay-200">
+        <p className="max-w-2xl mx-auto text-lg md:text-xl text-white/90 leading-relaxed mb-10 animate-fade-up delay-200 drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
           A boutique Ugandan coffee estate producing estate-grown Robusta and specialty 
           fermented coffee through precision farming, sustainability, and long-term intent.
         </p>
